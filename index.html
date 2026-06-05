@@ -1,25 +1,1008 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Portfolio arsitektur modern untuk menampilkan karya desain, konsep ruang, dan profil profesional." />
-  <title>Porto Amran | Architecture Portfolio</title>
+  <meta name="description" content="Professional portfolio of Mohammad Amran Ibrahim, Business Networking student with experience in sales marketing, operations, customer relations, and administration." />
+  <meta name="theme-color" content="#07111f" />
+  <title>Mohammad Amran Ibrahim — Business Portfolio</title>
   <style>
-    :root{--bg:#f4f1ea;--paper:#fffaf2;--ink:#171511;--muted:#756d60;--line:rgba(23,21,17,.14);--accent:#9b6b43;--accent-dark:#533a29;--max:1180px}*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}a{color:inherit;text-decoration:none}.grain{position:fixed;inset:0;pointer-events:none;opacity:.18;z-index:0;background-image:radial-gradient(circle at 20% 20%,rgba(83,58,41,.08),transparent 26%),radial-gradient(circle at 80% 10%,rgba(155,107,67,.12),transparent 24%),radial-gradient(circle at 40% 90%,rgba(0,0,0,.06),transparent 30%)}header{position:sticky;top:0;z-index:10;backdrop-filter:blur(18px);background:rgba(244,241,234,.82);border-bottom:1px solid var(--line)}.nav{width:min(var(--max),calc(100% - 32px));margin:0 auto;min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:-.04em;font-size:clamp(1.2rem,2vw,1.7rem)}.brand-mark{width:42px;height:42px;border:1px solid var(--ink);display:grid;place-items:center;position:relative;overflow:hidden}.brand-mark:before,.brand-mark:after{content:"";position:absolute;background:var(--ink)}.brand-mark:before{width:1px;height:100%;transform:rotate(38deg)}.brand-mark:after{width:70%;height:1px}.nav-links{display:flex;align-items:center;gap:26px;font-size:.9rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}.nav-links a:hover{color:var(--ink)}.nav-cta{padding:11px 18px;border:1px solid var(--ink);border-radius:999px;color:var(--ink)}main,footer{position:relative;z-index:1}.section{width:min(var(--max),calc(100% - 32px));margin:0 auto;padding:96px 0}.hero{min-height:calc(100vh - 78px);display:grid;grid-template-columns:1.08fr .92fr;gap:clamp(32px,6vw,90px);align-items:end;padding-top:76px;padding-bottom:70px}.eyebrow{display:inline-flex;align-items:center;gap:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.14em;font-size:.78rem;margin-bottom:22px}.eyebrow:before{content:"";width:38px;height:1px;background:var(--accent)}h1,h2,h3{line-height:.98;letter-spacing:-.07em;font-weight:800}h1{font-size:clamp(4.2rem,12vw,11rem);max-width:760px}h2{font-size:clamp(3rem,7vw,6.8rem);max-width:850px}h3{font-size:clamp(1.8rem,3vw,3rem)}.hero-text{max-width:610px;color:var(--muted);margin-top:28px;font-size:clamp(1rem,1.3vw,1.18rem)}.hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:36px}.button{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 22px;border-radius:999px;border:1px solid var(--ink);font-weight:700;transition:.25s ease}.button.primary{background:var(--ink);color:var(--paper)}.button:hover{transform:translateY(-2px);box-shadow:0 14px 34px rgba(23,21,17,.12)}.hero-card{min-height:560px;border:1px solid var(--line);background:linear-gradient(135deg,rgba(23,21,17,.15),transparent 34%),linear-gradient(160deg,#d8c8b3,#f9f4ec 48%,#b89876);position:relative;overflow:hidden;border-radius:30px;padding:28px;display:flex;align-items:flex-end;box-shadow:0 40px 90px rgba(83,58,41,.15)}.hero-card:before{content:"";position:absolute;inset:11%;border:1px solid rgba(23,21,17,.24);transform:skewY(-8deg)}.hero-card:after{content:"";position:absolute;width:58%;height:82%;right:8%;bottom:-12%;border:1px solid rgba(23,21,17,.33);background:repeating-linear-gradient(90deg,transparent 0 34px,rgba(23,21,17,.15) 35px 36px),linear-gradient(180deg,rgba(255,250,242,.4),rgba(155,107,67,.32));transform:perspective(700px) rotateY(-18deg) rotateX(3deg)}.hero-label{position:relative;z-index:2;width:100%;display:flex;justify-content:space-between;gap:20px;color:var(--paper);mix-blend-mode:difference;text-transform:uppercase;letter-spacing:.12em;font-size:.75rem}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}.stat{background:rgba(255,250,242,.52);padding:clamp(22px,4vw,40px)}.stat strong{display:block;font-size:clamp(2rem,4vw,4rem);line-height:1;letter-spacing:-.07em}.stat span{display:block;margin-top:12px;color:var(--muted);font-size:.9rem}.split-heading{display:grid;grid-template-columns:1fr .64fr;gap:40px;align-items:end;margin-bottom:46px}.split-heading p{color:var(--muted);max-width:520px}.projects{display:grid;grid-template-columns:repeat(12,1fr);gap:20px}.project{min-height:390px;grid-column:span 6;border:1px solid var(--line);border-radius:28px;overflow:hidden;background:var(--paper);position:relative}.project.large{grid-column:span 8;min-height:520px}.project.small{grid-column:span 4;min-height:520px}.project-visual{position:absolute;inset:0;background:linear-gradient(140deg,rgba(23,21,17,.18),transparent 42%),repeating-linear-gradient(90deg,transparent 0 52px,rgba(23,21,17,.09) 53px 54px),linear-gradient(155deg,var(--tone-a),var(--tone-b))}.project-visual:before{content:"";position:absolute;inset:17% 10% 21% 22%;border:1px solid rgba(23,21,17,.27);background:rgba(255,250,242,.18);transform:rotate(-5deg)}.project-visual:after{content:"";position:absolute;width:42%;height:58%;right:10%;top:15%;border:1px solid rgba(23,21,17,.34);background:repeating-linear-gradient(0deg,rgba(255,250,242,.44) 0 16px,transparent 17px 34px)}.project-content{position:absolute;inset:auto 20px 20px 20px;padding:22px;border-radius:22px;background:rgba(255,250,242,.76);backdrop-filter:blur(18px);border:1px solid rgba(23,21,17,.12);display:flex;justify-content:space-between;gap:20px;align-items:end}.project-content p{color:var(--muted);font-size:.94rem;margin-top:8px;max-width:420px}.tag{white-space:nowrap;border:1px solid var(--line);border-radius:999px;padding:8px 12px;color:var(--accent-dark);font-size:.78rem;text-transform:uppercase;letter-spacing:.08em}.services{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.service{border:1px solid var(--line);border-radius:28px;padding:clamp(24px,4vw,38px);background:rgba(255,250,242,.48)}.service-number{width:52px;height:52px;display:grid;place-items:center;border:1px solid var(--ink);border-radius:50%;margin-bottom:46px;font-weight:800}.service p{color:var(--muted);margin-top:18px}.about{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(34px,7vw,100px);align-items:start}.about-card{min-height:560px;border-radius:30px;border:1px solid var(--line);background:linear-gradient(180deg,rgba(255,250,242,.2),rgba(23,21,17,.14)),repeating-linear-gradient(45deg,transparent 0 26px,rgba(23,21,17,.08) 27px 28px),#cdbba5;position:sticky;top:112px;overflow:hidden}.about-card:before{content:"SITE\A PLAN";white-space:pre;position:absolute;left:34px;bottom:34px;font-size:clamp(3.5rem,8vw,7rem);font-weight:900;letter-spacing:-.1em;line-height:.82;color:rgba(23,21,17,.22)}.about-copy p{color:var(--muted);font-size:clamp(1.08rem,1.6vw,1.35rem);margin-top:26px;max-width:760px}.principles{margin-top:40px;display:grid;gap:12px}.principle{display:flex;justify-content:space-between;gap:18px;padding:18px 0;border-bottom:1px solid var(--line);color:var(--muted)}.principle strong{color:var(--ink);font-size:1.08rem}.contact{border:1px solid var(--line);border-radius:34px;padding:clamp(30px,7vw,76px);background:linear-gradient(135deg,rgba(255,250,242,.68),rgba(223,213,198,.8)),var(--paper);display:grid;grid-template-columns:1.1fr .9fr;gap:46px;align-items:end}.contact p{color:var(--muted);max-width:600px;margin-top:22px}.contact-list{display:grid;gap:12px}.contact-list a,.contact-list span{display:flex;justify-content:space-between;gap:20px;padding:17px 0;border-bottom:1px solid var(--line);color:var(--muted)}.contact-list strong{color:var(--ink)}footer{width:min(var(--max),calc(100% - 32px));margin:0 auto;padding:34px 0 46px;color:var(--muted);display:flex;justify-content:space-between;gap:18px;border-top:1px solid var(--line);font-size:.92rem}@media(max-width:960px){.hero,.split-heading,.about,.contact{grid-template-columns:1fr}.hero-card{min-height:460px}.stats{grid-template-columns:repeat(2,1fr)}.project,.project.large,.project.small{grid-column:1/-1;min-height:430px}.services{grid-template-columns:1fr}.about-card{position:relative;top:auto;min-height:360px}}@media(max-width:720px){.nav{min-height:70px}.nav-links{display:none}.section{padding:68px 0}.hero{padding-top:54px}h1{font-size:clamp(3.5rem,22vw,6rem)}.hero-card,.project,.project.large,.project.small{border-radius:22px}.project-content{flex-direction:column;align-items:flex-start}.stats{grid-template-columns:1fr}footer{flex-direction:column}}
+    :root {
+      --bg: #07111f;
+      --bg-2: #0a1728;
+      --panel: rgba(255, 255, 255, 0.08);
+      --panel-2: rgba(255, 255, 255, 0.13);
+      --paper: #f6f0e7;
+      --paper-2: #fffaf2;
+      --ink: #f8f3eb;
+      --muted: rgba(248, 243, 235, 0.68);
+      --soft: rgba(248, 243, 235, 0.12);
+      --line: rgba(248, 243, 235, 0.16);
+      --accent: #d7a86e;
+      --accent-2: #6bd6ca;
+      --accent-3: #9bbcff;
+      --shadow: 0 28px 80px rgba(0, 0, 0, 0.34);
+      --radius-xl: 34px;
+      --radius-lg: 24px;
+      --radius-md: 18px;
+      --max: 1180px;
+      --nav-h: 82px;
+    }
+
+    [data-theme="light"] {
+      --bg: #f2efe8;
+      --bg-2: #fffaf2;
+      --panel: rgba(7, 17, 31, 0.065);
+      --panel-2: rgba(7, 17, 31, 0.09);
+      --paper: #07111f;
+      --paper-2: #111827;
+      --ink: #07111f;
+      --muted: rgba(7, 17, 31, 0.64);
+      --soft: rgba(7, 17, 31, 0.10);
+      --line: rgba(7, 17, 31, 0.14);
+      --shadow: 0 24px 70px rgba(34, 25, 18, 0.14);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      min-height: 100vh;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at 12% 6%, rgba(107, 214, 202, .23), transparent 28%),
+        radial-gradient(circle at 88% 10%, rgba(215, 168, 110, .22), transparent 26%),
+        radial-gradient(circle at 50% 92%, rgba(155, 188, 255, .16), transparent 34%),
+        linear-gradient(135deg, var(--bg), var(--bg-2));
+      color: var(--ink);
+      line-height: 1.65;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+      opacity: .20;
+      background-image:
+        linear-gradient(var(--line) 1px, transparent 1px),
+        linear-gradient(90deg, var(--line) 1px, transparent 1px);
+      background-size: 68px 68px;
+      mask-image: radial-gradient(circle at top, #000 0, transparent 72%);
+    }
+
+    body::after {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 1;
+      opacity: .18;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 220 220' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.45'/%3E%3C/svg%3E");
+      mix-blend-mode: soft-light;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    img { display: block; max-width: 100%; }
+    button, input, textarea { font: inherit; }
+    ::selection { background: rgba(215, 168, 110, .35); }
+
+    .site-shell { position: relative; z-index: 2; }
+    .container { width: min(var(--max), calc(100% - 40px)); margin: 0 auto; }
+    .section { padding: 112px 0; scroll-margin-top: calc(var(--nav-h) + 24px); }
+
+    .skip-link {
+      position: absolute;
+      left: 18px;
+      top: -80px;
+      z-index: 999;
+      padding: 12px 16px;
+      border-radius: 999px;
+      color: #07111f;
+      background: var(--accent);
+      transition: top .2s ease;
+    }
+    .skip-link:focus { top: 16px; }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      border-bottom: 1px solid var(--line);
+      background: color-mix(in srgb, var(--bg) 74%, transparent);
+      backdrop-filter: blur(22px) saturate(130%);
+    }
+
+    .nav {
+      height: var(--nav-h);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 22px;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 900;
+      letter-spacing: -.04em;
+      line-height: .96;
+    }
+
+    .brand-mark {
+      width: 46px;
+      height: 46px;
+      border-radius: 16px;
+      display: grid;
+      place-items: center;
+      color: #07111f;
+      background: linear-gradient(135deg, var(--accent), #fff1d5 54%, var(--accent-2));
+      box-shadow: 0 18px 38px rgba(215, 168, 110, .18);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .brand-mark::before {
+      content: "AI";
+      font-size: 15px;
+      font-weight: 950;
+      letter-spacing: -.08em;
+      position: relative;
+      z-index: 2;
+    }
+
+    .brand-mark::after {
+      content: "";
+      position: absolute;
+      inset: -40% 55% 0 -40%;
+      background: rgba(255, 255, 255, .46);
+      transform: rotate(35deg);
+    }
+
+    .brand span:last-child { font-size: 15px; text-transform: uppercase; letter-spacing: .08em; }
+
+    .nav-menu {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 8px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--panel);
+    }
+
+    .nav-menu a {
+      padding: 9px 14px;
+      border-radius: 999px;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      transition: background .2s ease, color .2s ease;
+    }
+
+    .nav-menu a:hover,
+    .nav-menu a.active {
+      color: var(--ink);
+      background: var(--soft);
+    }
+
+    .nav-actions { display: flex; align-items: center; gap: 10px; }
+    .icon-btn,
+    .mobile-toggle {
+      width: 46px;
+      height: 46px;
+      border: 1px solid var(--line);
+      color: var(--ink);
+      border-radius: 999px;
+      background: var(--panel);
+      cursor: pointer;
+      display: grid;
+      place-items: center;
+      transition: transform .2s ease, background .2s ease;
+    }
+    .icon-btn:hover, .mobile-toggle:hover { transform: translateY(-2px); background: var(--panel-2); }
+    .mobile-toggle { display: none; }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      min-height: 50px;
+      padding: 0 20px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      color: var(--ink);
+      background: var(--panel);
+      font-weight: 900;
+      letter-spacing: -.01em;
+      transition: transform .25s ease, box-shadow .25s ease, background .25s ease;
+      white-space: nowrap;
+    }
+
+    .btn:hover { transform: translateY(-3px); box-shadow: var(--shadow); background: var(--panel-2); }
+    .btn.primary {
+      border-color: transparent;
+      color: #07111f;
+      background: linear-gradient(135deg, var(--accent), #fff1d5 50%, var(--accent-2));
+      box-shadow: 0 18px 48px rgba(107, 214, 202, .16);
+    }
+    .btn.dark { color: #f8f3eb; background: #07111f; border-color: rgba(255,255,255,.14); }
+    .btn svg { width: 18px; height: 18px; }
+
+    .hero {
+      min-height: calc(100svh - var(--nav-h));
+      padding: 76px 0 86px;
+      display: grid;
+      grid-template-columns: minmax(0, 1.08fr) minmax(320px, .92fr);
+      gap: clamp(34px, 7vw, 92px);
+      align-items: center;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 22px;
+      color: var(--accent-2);
+      font-size: 12px;
+      font-weight: 950;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+    .eyebrow::before { content: ""; width: 38px; height: 1px; background: currentColor; opacity: .7; }
+
+    h1, h2, h3 { line-height: .98; letter-spacing: -.07em; }
+    h1 { font-size: clamp(4.1rem, 10vw, 9.6rem); font-weight: 950; max-width: 880px; }
+    h2 { font-size: clamp(3rem, 6.8vw, 6.6rem); font-weight: 950; max-width: 900px; }
+    h3 { font-size: clamp(1.5rem, 2.5vw, 2.65rem); font-weight: 920; }
+    .gradient-text {
+      background: linear-gradient(135deg, var(--ink), var(--accent) 48%, var(--accent-2));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .lead {
+      max-width: 690px;
+      margin-top: 30px;
+      color: var(--muted);
+      font-size: clamp(1.04rem, 1.35vw, 1.22rem);
+    }
+
+    .hero-actions { margin-top: 34px; display: flex; flex-wrap: wrap; gap: 12px; }
+    .hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 38px;
+      color: var(--muted);
+    }
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      min-height: 38px;
+      padding: 0 13px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--panel);
+      font-size: 13px;
+      font-weight: 760;
+    }
+    .dot { width: 8px; height: 8px; border-radius: 999px; background: var(--accent-2); box-shadow: 0 0 0 6px rgba(107,214,202,.10); }
+
+    .portrait-wrap {
+      position: relative;
+      min-height: 650px;
+      display: grid;
+      align-items: end;
+      justify-items: center;
+    }
+
+    .portrait-card {
+      width: min(100%, 470px);
+      min-height: 610px;
+      border: 1px solid var(--line);
+      border-radius: 46px;
+      background:
+        linear-gradient(135deg, rgba(255,255,255,.18), transparent 34%),
+        radial-gradient(circle at 50% 18%, rgba(107,214,202,.28), transparent 32%),
+        linear-gradient(160deg, rgba(255,255,255,.12), rgba(255,255,255,.04));
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      position: relative;
+      isolation: isolate;
+    }
+
+    .portrait-card::before {
+      content: "";
+      position: absolute;
+      inset: 16px;
+      border: 1px solid var(--line);
+      border-radius: 34px;
+      background:
+        linear-gradient(90deg, transparent 0 95%, var(--line) 96% 100%),
+        linear-gradient(180deg, transparent 0 95%, var(--line) 96% 100%);
+      background-size: 42px 42px;
+      opacity: .56;
+      z-index: -1;
+    }
+
+    .portrait-card::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: 30px;
+      width: 360px;
+      height: 360px;
+      transform: translateX(-50%);
+      border-radius: 999px;
+      background: linear-gradient(135deg, rgba(215,168,110,.30), rgba(107,214,202,.18));
+      filter: blur(4px);
+      z-index: -1;
+    }
+
+    .portrait-card img {
+      position: absolute;
+      left: 50%;
+      bottom: -16px;
+      width: min(82%, 390px);
+      transform: translateX(-50%);
+      filter: drop-shadow(0 28px 42px rgba(0,0,0,.38));
+    }
+
+    .floating-card {
+      position: absolute;
+      z-index: 5;
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: color-mix(in srgb, var(--bg-2) 78%, transparent);
+      backdrop-filter: blur(18px);
+      box-shadow: var(--shadow);
+      padding: 17px 18px;
+      max-width: 240px;
+    }
+    .floating-card strong { display: block; font-size: 30px; letter-spacing: -.06em; line-height: 1; }
+    .floating-card span { display: block; margin-top: 8px; color: var(--muted); font-size: 13px; font-weight: 720; line-height: 1.35; }
+    .float-1 { left: -10px; top: 84px; }
+    .float-2 { right: -2px; bottom: 78px; }
+
+    .scroll-note {
+      position: absolute;
+      left: 0;
+      bottom: 4px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 900;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      writing-mode: vertical-rl;
+    }
+    .scroll-note::after { content: ""; display: inline-block; width: 1px; height: 54px; margin-top: 12px; background: var(--line); }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+    }
+    .stat-card {
+      border: 1px solid var(--line);
+      border-radius: 26px;
+      padding: 30px;
+      background: var(--panel);
+      min-height: 176px;
+      position: relative;
+      overflow: hidden;
+    }
+    .stat-card::after {
+      content: "";
+      position: absolute;
+      right: -44px;
+      top: -44px;
+      width: 130px;
+      height: 130px;
+      border-radius: 999px;
+      background: rgba(215,168,110,.13);
+    }
+    .stat-card b { display: block; font-size: clamp(2.15rem, 4vw, 4rem); letter-spacing: -.08em; line-height: .9; }
+    .stat-card span { display: block; margin-top: 18px; color: var(--muted); font-size: 14px; font-weight: 760; }
+
+    .section-head {
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(280px, .65fr);
+      gap: 42px;
+      align-items: end;
+      margin-bottom: 44px;
+    }
+    .section-head p { color: var(--muted); max-width: 540px; }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: minmax(300px, .78fr) minmax(0, 1.22fr);
+      gap: 18px;
+    }
+    .about-panel, .quote-panel, .skill-panel, .timeline-item, .research-card, .contact-panel {
+      border: 1px solid var(--line);
+      border-radius: var(--radius-xl);
+      background: var(--panel);
+      box-shadow: 0 1px 0 rgba(255,255,255,.04) inset;
+    }
+    .about-panel {
+      padding: clamp(28px, 4vw, 42px);
+      min-height: 520px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      overflow: hidden;
+      position: relative;
+    }
+    .about-panel::before {
+      content: "GROWTH\A DRIVEN";
+      white-space: pre;
+      position: absolute;
+      right: -8px;
+      bottom: -10px;
+      font-size: clamp(4rem, 10vw, 9rem);
+      line-height: .78;
+      letter-spacing: -.10em;
+      font-weight: 950;
+      color: var(--soft);
+      pointer-events: none;
+    }
+    .about-panel p { color: var(--muted); font-size: 1.08rem; max-width: 560px; position: relative; }
+    .about-tags { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 30px; position: relative; }
+    .about-tags span { padding: 8px 12px; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); background: rgba(255,255,255,.04); font-size: 13px; font-weight: 800; }
+
+    .quote-panel {
+      padding: clamp(28px, 5vw, 56px);
+      min-height: 520px;
+      background:
+        linear-gradient(135deg, rgba(215,168,110,.10), transparent 36%),
+        var(--panel);
+    }
+    .quote-panel .large-copy {
+      font-size: clamp(1.75rem, 3.4vw, 3.65rem);
+      line-height: 1.08;
+      letter-spacing: -.06em;
+      font-weight: 900;
+    }
+    .quote-panel p:not(.large-copy) { margin-top: 26px; color: var(--muted); max-width: 760px; }
+    .principles { display: grid; gap: 12px; margin-top: 34px; }
+    .principle {
+      display: grid;
+      grid-template-columns: 190px 1fr;
+      gap: 18px;
+      align-items: start;
+      padding: 18px 0;
+      border-top: 1px solid var(--line);
+    }
+    .principle strong { letter-spacing: -.02em; }
+    .principle span { color: var(--muted); }
+
+    .timeline {
+      display: grid;
+      gap: 14px;
+    }
+    .timeline-item {
+      padding: clamp(24px, 4vw, 36px);
+      display: grid;
+      grid-template-columns: 190px 1fr auto;
+      gap: 26px;
+      align-items: start;
+      position: relative;
+      overflow: hidden;
+      transition: transform .25s ease, background .25s ease;
+    }
+    .timeline-item:hover { transform: translateY(-4px); background: var(--panel-2); }
+    .timeline-date { color: var(--accent-2); font-weight: 940; text-transform: uppercase; letter-spacing: .10em; font-size: 12px; }
+    .timeline-role { color: var(--muted); font-weight: 770; margin-top: 4px; }
+    .timeline-item ul { margin-top: 16px; padding-left: 19px; color: var(--muted); }
+    .timeline-item li + li { margin-top: 8px; }
+    .timeline-badge { padding: 8px 12px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); font-size: 12px; font-weight: 900; text-transform: uppercase; letter-spacing: .08em; white-space: nowrap; }
+
+    .skill-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+    .skill-panel {
+      min-height: 310px;
+      padding: clamp(24px, 4vw, 34px);
+      position: relative;
+      overflow: hidden;
+    }
+    .skill-panel::before {
+      content: attr(data-number);
+      position: absolute;
+      right: 20px;
+      top: 14px;
+      font-size: 5rem;
+      line-height: 1;
+      letter-spacing: -.1em;
+      color: var(--soft);
+      font-weight: 950;
+    }
+    .skill-icon {
+      width: 56px;
+      height: 56px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      display: grid;
+      place-items: center;
+      background: rgba(255,255,255,.06);
+      margin-bottom: 60px;
+    }
+    .skill-icon svg { width: 25px; height: 25px; }
+    .skill-panel p { margin-top: 16px; color: var(--muted); }
+
+    .tools-wrap {
+      margin-top: 18px;
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap: 16px;
+    }
+    .tool-cloud, .language-card {
+      border: 1px solid var(--line);
+      border-radius: var(--radius-xl);
+      background: var(--panel);
+      padding: 30px;
+    }
+    .tool-cloud h3, .language-card h3 { font-size: clamp(1.45rem, 2.5vw, 2.4rem); }
+    .chips { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
+    .chips span {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 10px 14px;
+      background: rgba(255,255,255,.04);
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 820;
+    }
+    .language-list { margin-top: 22px; display: grid; gap: 12px; }
+    .language-row { display: flex; justify-content: space-between; gap: 18px; padding: 14px 0; border-top: 1px solid var(--line); color: var(--muted); }
+    .language-row strong { color: var(--ink); }
+
+    .research-card {
+      padding: clamp(30px, 6vw, 64px);
+      display: grid;
+      grid-template-columns: .85fr 1.15fr;
+      gap: 38px;
+      background:
+        radial-gradient(circle at 12% 12%, rgba(215,168,110,.14), transparent 32%),
+        radial-gradient(circle at 82% 82%, rgba(107,214,202,.12), transparent 32%),
+        var(--panel);
+      overflow: hidden;
+      position: relative;
+    }
+    .research-card::after {
+      content: "UBAYA";
+      position: absolute;
+      right: -10px;
+      bottom: -22px;
+      font-size: clamp(5rem, 14vw, 12rem);
+      line-height: .8;
+      font-weight: 950;
+      letter-spacing: -.12em;
+      color: var(--soft);
+    }
+    .research-card p { color: var(--muted); margin-top: 22px; max-width: 720px; position: relative; }
+    .research-list { display: grid; gap: 12px; position: relative; }
+    .research-list div { padding: 18px 0; border-top: 1px solid var(--line); }
+    .research-list strong { display: block; }
+    .research-list span { display: block; color: var(--muted); margin-top: 6px; }
+
+    .contact-panel {
+      padding: clamp(30px, 6vw, 70px);
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(320px, .95fr);
+      gap: 44px;
+      align-items: end;
+      background:
+        linear-gradient(135deg, rgba(215,168,110,.15), transparent 35%),
+        var(--panel);
+    }
+    .contact-panel p { color: var(--muted); margin-top: 22px; max-width: 630px; }
+    .contact-list { display: grid; gap: 10px; }
+    .contact-link {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 18px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: rgba(255,255,255,.04);
+      padding: 16px 18px;
+      transition: transform .2s ease, background .2s ease;
+      color: var(--muted);
+    }
+    .contact-link:hover { transform: translateY(-2px); background: rgba(255,255,255,.08); }
+    .contact-link strong { color: var(--ink); }
+    .contact-link span:last-child { text-align: right; word-break: break-word; }
+
+    .footer {
+      border-top: 1px solid var(--line);
+      padding: 32px 0 42px;
+      color: var(--muted);
+    }
+    .footer-inner { display: flex; align-items: center; justify-content: space-between; gap: 18px; font-size: 14px; }
+
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity .7s ease, transform .7s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; animation: none !important; }
+      .reveal { opacity: 1; transform: none; }
+    }
+
+    @media (max-width: 1060px) {
+      .nav-menu { display: none; }
+      .mobile-toggle { display: grid; }
+      .nav.open .nav-menu {
+        position: absolute;
+        left: 20px;
+        right: 20px;
+        top: calc(var(--nav-h) + 12px);
+        display: grid;
+        border-radius: 24px;
+        background: color-mix(in srgb, var(--bg) 92%, transparent);
+        box-shadow: var(--shadow);
+      }
+      .nav.open .nav-menu a { padding: 15px 18px; }
+      .hero { grid-template-columns: 1fr; }
+      .portrait-wrap { min-height: 590px; }
+      .float-1 { left: 0; }
+      .float-2 { right: 0; }
+      .stats-grid { grid-template-columns: repeat(2, 1fr); }
+      .section-head, .about-grid, .research-card, .contact-panel, .tools-wrap { grid-template-columns: 1fr; }
+      .timeline-item { grid-template-columns: 1fr; }
+      .timeline-badge { width: fit-content; }
+      .skill-grid { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 680px) {
+      :root { --nav-h: 74px; }
+      .container { width: min(100% - 28px, var(--max)); }
+      .section { padding: 78px 0; }
+      .brand span:last-child { display: none; }
+      .nav .btn { display: none; }
+      h1 { font-size: clamp(3.35rem, 18vw, 5.5rem); }
+      h2 { font-size: clamp(2.55rem, 14vw, 4.1rem); }
+      .hero { padding-top: 48px; padding-bottom: 64px; }
+      .hero-actions .btn { width: 100%; }
+      .portrait-wrap { min-height: 520px; }
+      .portrait-card { min-height: 520px; border-radius: 32px; }
+      .portrait-card img { width: min(86%, 335px); }
+      .floating-card { position: relative; inset: auto; width: 100%; max-width: none; margin-top: 12px; }
+      .scroll-note { display: none; }
+      .stats-grid { grid-template-columns: 1fr; }
+      .principle { grid-template-columns: 1fr; }
+      .contact-link { align-items: flex-start; flex-direction: column; }
+      .contact-link span:last-child { text-align: left; }
+      .footer-inner { flex-direction: column; align-items: flex-start; }
+    }
   </style>
 </head>
 <body>
-  <div class="grain" aria-hidden="true"></div>
-  <header><nav class="nav" aria-label="Navigasi utama"><a class="brand" href="#top" aria-label="Porto Amran Home"><span class="brand-mark" aria-hidden="true"></span><span>Porto<br>Amran</span></a><div class="nav-links"><a href="#work">Work</a><a href="#services">Services</a><a href="#studio">Studio</a><a class="nav-cta" href="#contact">Contact</a></div></nav></header>
-  <main id="top">
-    <section class="section hero"><div><span class="eyebrow">Architecture Portfolio</span><h1>Designing quiet spaces with strong character.</h1><p class="hero-text">Portfolio arsitektur untuk menampilkan proyek hunian, ruang publik, interior, dan eksplorasi konsep desain yang bersih, fungsional, serta berorientasi pada pengalaman pengguna.</p><div class="hero-actions"><a class="button primary" href="#work">Lihat Portfolio</a><a class="button" href="#contact">Mulai Kolaborasi</a></div></div><div class="hero-card" aria-label="Ilustrasi massa bangunan arsitektur"><div class="hero-label"><span>Selected Works</span><span>2026</span></div></div></section>
-    <section class="section" aria-label="Statistik portfolio"><div class="stats"><div class="stat"><strong>12+</strong><span>Concept explorations</span></div><div class="stat"><strong>08</strong><span>Residential studies</span></div><div class="stat"><strong>05</strong><span>Public space ideas</span></div><div class="stat"><strong>01</strong><span>Design direction</span></div></div></section>
-    <section class="section" id="work"><div class="split-heading"><div><span class="eyebrow">Selected Work</span><h2>Projects shaped by context and atmosphere.</h2></div><p>Setiap karya disusun dengan pendekatan arsitektural: membaca tapak, merapikan sirkulasi, menguatkan identitas ruang, dan menjaga komposisi visual tetap sederhana.</p></div><div class="projects"><article class="project large" style="--tone-a:#bca68e;--tone-b:#ece3d3;"><div class="project-visual" aria-hidden="true"></div><div class="project-content"><div><h3>Courtyard House</h3><p>Konsep hunian tropis dengan inner courtyard, ventilasi silang, dan ritme fasad yang tenang.</p></div><span class="tag">Residential</span></div></article><article class="project small" style="--tone-a:#d5cab8;--tone-b:#9b8067;"><div class="project-visual" aria-hidden="true"></div><div class="project-content"><div><h3>Compact Studio</h3><p>Ruang kerja kecil dengan storage terintegrasi dan cahaya alami.</p></div><span class="tag">Interior</span></div></article><article class="project" style="--tone-a:#c8b08f;--tone-b:#f2eadc;"><div class="project-visual" aria-hidden="true"></div><div class="project-content"><div><h3>Community Pavilion</h3><p>Paviliun komunal untuk aktivitas warga, diskusi kecil, dan ruang transisi publik.</p></div><span class="tag">Public</span></div></article><article class="project" style="--tone-a:#a9957a;--tone-b:#e7d9c6;"><div class="project-visual" aria-hidden="true"></div><div class="project-content"><div><h3>Urban Infill</h3><p>Eksplorasi massa bangunan pada lahan sempit dengan fasad adaptif dan ruang hijau mikro.</p></div><span class="tag">Urban</span></div></article></div></section>
-    <section class="section" id="services"><div class="split-heading"><div><span class="eyebrow">Services</span><h2>From first concept to presentation-ready design.</h2></div><p>Format halaman ini dapat dikembangkan lagi menjadi portfolio penuh dengan foto proyek asli, render 3D, diagram, CV, atau tombol download PDF.</p></div><div class="services"><article class="service"><div class="service-number">01</div><h3>Concept Design</h3><p>Pengembangan ide awal, mood visual, zoning, pendekatan massa, dan arah desain arsitektur.</p></article><article class="service"><div class="service-number">02</div><h3>Spatial Planning</h3><p>Penyusunan layout ruang, sirkulasi, kebutuhan aktivitas, dan hubungan antar fungsi.</p></article><article class="service"><div class="service-number">03</div><h3>Presentation</h3><p>Penyajian portfolio, poster, diagram, narasi desain, dan materi presentasi yang rapi.</p></article></div></section>
-    <section class="section about" id="studio"><div class="about-card" aria-hidden="true"></div><div class="about-copy"><span class="eyebrow">Studio Profile</span><h2>Minimal form, clear story, useful space.</h2><p>Portfolio ini memakai bahasa visual arsitektur yang bersih: grid besar, warna bumi, garis konstruksi, dan ruang kosong yang cukup agar karya terlihat premium.</p><p>Cocok untuk halaman GitHub Pages, tugas portfolio, personal branding arsitektur, maupun landing page sederhana untuk jasa desain.</p><div class="principles"><div class="principle"><strong>Context</strong><span>Membaca tapak, pengguna, iklim, dan karakter lingkungan.</span></div><div class="principle"><strong>Composition</strong><span>Merapikan hirarki visual, proporsi, dan ritme elemen desain.</span></div><div class="principle"><strong>Function</strong><span>Menjaga ruang tetap mudah digunakan, fleksibel, dan efisien.</span></div></div></div></section>
-    <section class="section" id="contact"><div class="contact"><div><span class="eyebrow">Contact</span><h2>Let’s build a portfolio that feels architectural.</h2><p>Ganti bagian kontak ini dengan email, Instagram, WhatsApp, atau link portfolio asli. Semua kode ada dalam satu file HTML sehingga mudah diedit langsung dari GitHub.</p></div><div class="contact-list"><a href="mailto:hello@example.com"><strong>Email</strong><span>hello@example.com</span></a><a href="https://github.com/amranibrhm" target="_blank" rel="noreferrer"><strong>GitHub</strong><span>@amranibrhm</span></a><span><strong>Location</strong><span>Indonesia</span></span></div></div></section>
-  </main>
-  <footer><span>© 2026 Porto Amran. All rights reserved.</span><span>Single-file HTML portfolio.</span></footer>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="site-shell">
+    <header class="topbar">
+      <div class="container">
+        <nav class="nav" aria-label="Main navigation">
+          <a href="#top" class="brand" aria-label="Mohammad Amran Ibrahim home">
+            <span class="brand-mark" aria-hidden="true"></span>
+            <span>Mohammad<br>Amran Ibrahim</span>
+          </a>
+
+          <div class="nav-menu" id="navMenu">
+            <a href="#about">Profile</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+          </div>
+
+          <div class="nav-actions">
+            <button class="icon-btn" type="button" id="themeToggle" aria-label="Toggle color theme">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3v2.2M12 18.8V21M4.64 4.64l1.56 1.56M17.8 17.8l1.56 1.56M3 12h2.2M18.8 12H21M4.64 19.36l1.56-1.56M17.8 6.2l1.56-1.56" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M12 16.2a4.2 4.2 0 1 0 0-8.4 4.2 4.2 0 0 0 0 8.4Z" stroke="currentColor" stroke-width="2"/></svg>
+            </button>
+            <a class="btn" href="assets/CV_ATS_Amran.pdf" download>Download CV</a>
+            <button class="mobile-toggle" type="button" id="mobileToggle" aria-controls="navMenu" aria-expanded="false" aria-label="Open menu">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="container hero" id="top">
+        <div class="hero-copy reveal">
+          <span class="eyebrow">Business Networking • Sales Marketing • Operations</span>
+          <h1>Building growth through <span class="gradient-text">sales, service, and operations.</span></h1>
+          <p class="lead">Final-year Business Networking student at Universitas Surabaya with hands-on experience in sales marketing, operational coordination, customer relations, and administration. Focused on helping businesses win trust, move faster, and deliver stronger client experiences.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#experience">
+              View Experience
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a class="btn" href="mailto:m.amranibrhm@gmail.com">Hire / Contact Me</a>
+          </div>
+          <div class="hero-meta" aria-label="Professional highlights">
+            <span class="pill"><span class="dot"></span> Open to business opportunities</span>
+            <span class="pill">Sidoarjo, East Java</span>
+            <span class="pill">English: Advanced</span>
+          </div>
+        </div>
+
+        <div class="portrait-wrap reveal" aria-label="Portrait and career highlights">
+          <span class="scroll-note">Scroll</span>
+          <div class="portrait-card">
+            <img src="assets/amran-profile.png" alt="Mohammad Amran Ibrahim wearing a formal suit" />
+          </div>
+          <div class="floating-card float-1">
+            <strong>Rp6.1M+</strong>
+            <span>Generated through direct selling within three days.</span>
+          </div>
+          <div class="floating-card float-2">
+            <strong>3 Roles</strong>
+            <span>Sales marketing, operations, and secretariat experience.</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="container section reveal" aria-label="Portfolio statistics">
+        <div class="stats-grid">
+          <article class="stat-card"><b>1+</b><span>Years of professional and organizational experience.</span></article>
+          <article class="stat-card"><b>Rp6.1M+</b><span>Sales generated from face-to-face selling activity.</span></article>
+          <article class="stat-card"><b>3.07</b><span>GPA in Business Networking at Universitas Surabaya.</span></article>
+          <article class="stat-card"><b>Adv.</b><span>English proficiency with native Indonesian communication.</span></article>
+        </div>
+      </section>
+
+      <section class="container section" id="about">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow">Profile</span>
+            <h2>Business-oriented, detail-focused, and growth-driven.</h2>
+          </div>
+          <p>Amran combines business networking fundamentals with field experience in client communication, sales execution, operational support, and administrative discipline.</p>
+        </div>
+
+        <div class="about-grid">
+          <article class="about-panel reveal">
+            <div>
+              <h3>Professional Summary</h3>
+              <p>Proactive and adaptable final-year student with strong communication and interpersonal skills. Experienced in supporting marketing activities, maintaining customer relationships, and ensuring smooth daily business operations.</p>
+              <div class="about-tags">
+                <span>Client Relationship</span>
+                <span>Negotiation Support</span>
+                <span>Operational Flow</span>
+                <span>Documentation</span>
+                <span>Detail-Oriented</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="quote-panel reveal">
+            <p class="large-copy">“I help connect people, products, and processes so business can move with clarity and trust.”</p>
+            <p>Through sales, operations, and organization experience, Amran has developed a practical working style: communicate clearly, follow up consistently, document accurately, and solve issues before they disrupt the customer journey.</p>
+            <div class="principles">
+              <div class="principle"><strong>Communication</strong><span>Building confidence between buyers, sellers, customers, and internal teams.</span></div>
+              <div class="principle"><strong>Adaptability</strong><span>Performing in dynamic environments with changing customer and business needs.</span></div>
+              <div class="principle"><strong>Continuous Learning</strong><span>Improving technical, creative, and professional capabilities to create stronger value.</span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="container section" id="experience">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow">Experience</span>
+            <h2>Selected experience and measurable impact.</h2>
+          </div>
+          <p>Experience across sales marketing, business operations, direct sales, logistics support, document management, and customer relationship handling.</p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div>
+              <span class="timeline-date">2026 - Present</span>
+              <p class="timeline-role">Sales Marketing</p>
+            </div>
+            <div>
+              <h3>M2 Agency</h3>
+              <ul>
+                <li>Promoted property and vehicle listings across marketing channels.</li>
+                <li>Bridged communication between sellers and buyers to support negotiation and transaction flow.</li>
+                <li>Assisted field surveys and delivered product details to prospective clients.</li>
+                <li>Maintained client relationships to improve trust and repeat-order potential.</li>
+              </ul>
+            </div>
+            <span class="timeline-badge">Sales</span>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div>
+              <span class="timeline-date">Sep 2024 - Dec 2024</span>
+              <p class="timeline-role">Operations & Sales Marketing</p>
+            </div>
+            <div>
+              <h3>Onepaku Bites</h3>
+              <ul>
+                <li>Managed product flow from seller to customer, including inventory, stock issues, shipping, and daily operations.</li>
+                <li>Participated in face-to-face selling and generated more than Rp6,100,000 in revenue within three days.</li>
+              </ul>
+            </div>
+            <span class="timeline-badge">Operations</span>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div>
+              <span class="timeline-date">Mar 2024 - May 2024</span>
+              <p class="timeline-role">Secretariat</p>
+            </div>
+            <div>
+              <h3>KMM RK FBE UBAYA</h3>
+              <ul>
+                <li>Provided administrative support to senior management for smooth organizational operations.</li>
+                <li>Organized, managed, and archived official documents, records, and correspondence.</li>
+              </ul>
+            </div>
+            <span class="timeline-badge">Admin</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="container section" id="skills">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow">Skills</span>
+            <h2>Core competencies for business execution.</h2>
+          </div>
+          <p>Technical and interpersonal capabilities developed through academic, professional, and organizational work.</p>
+        </div>
+
+        <div class="skill-grid">
+          <article class="skill-panel reveal" data-number="01">
+            <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 19V5m0 14h16M8 16V9m4 7V6m4 10v-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+            <h3>Sales & Marketing</h3>
+            <p>Promotion, lead handling, client communication, buyer-seller coordination, and field survey support.</p>
+          </article>
+          <article class="skill-panel reveal" data-number="02">
+            <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 7l8-4 8 4-8 4-8-4Zm0 5l8 4 8-4M4 17l8 4 8-4" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg></div>
+            <h3>Business Operations</h3>
+            <p>Inventory management, logistics coordination, stock monitoring, shipping control, and operational support.</p>
+          </article>
+          <article class="skill-panel reveal" data-number="03">
+            <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 11a4 4 0 1 1 8 0v2a4 4 0 1 1-8 0v-2Zm12 2a7 7 0 0 1-14 0m7 7v2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+            <h3>Customer Relations</h3>
+            <p>Relationship building, clear communication, customer satisfaction awareness, and trust-based follow-up.</p>
+          </article>
+        </div>
+
+        <div class="tools-wrap">
+          <article class="tool-cloud reveal">
+            <h3>Technical Tools</h3>
+            <div class="chips">
+              <span>Microsoft Excel</span><span>PowerPoint</span><span>Word</span><span>Canva</span><span>Photoshop</span><span>Adobe Premiere Pro</span><span>CapCut</span>
+            </div>
+          </article>
+          <article class="language-card reveal">
+            <h3>Languages & Soft Skills</h3>
+            <div class="language-list">
+              <div class="language-row"><strong>Indonesia</strong><span>Native</span></div>
+              <div class="language-row"><strong>English</strong><span>Advanced</span></div>
+              <div class="language-row"><strong>Soft Skills</strong><span>Critical thinking, time management, adaptability</span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="container section" id="education">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow">Education</span>
+            <h2>Academic background and research focus.</h2>
+          </div>
+          <p>Studying Business Networking at Universitas Surabaya with a research interest in logistics service quality, satisfaction, and customer loyalty.</p>
+        </div>
+
+        <article class="research-card reveal">
+          <div>
+            <h3>Universitas Surabaya</h3>
+            <p>Bachelor of Business Networking<br>GPA 3.07 / 4.00<br>July 2021 - Present</p>
+          </div>
+          <div class="research-list">
+            <div><strong>Thesis Title</strong><span>From Delivery to Loyalty: The Role of Shopee Express Logistics Service Quality in Shaping Customer Satisfaction and Loyalty in Indonesia.</span></div>
+            <div><strong>Article Title</strong><span>The Role of Shopee Express Logistics Service Quality in Shaping Customer Satisfaction and Customer Loyalty.</span></div>
+            <div><strong>Certification</strong><span>Coursera Excel Certificate, 2026.</span></div>
+          </div>
+        </article>
+      </section>
+
+      <section class="container section" id="contact">
+        <div class="contact-panel reveal">
+          <div>
+            <span class="eyebrow">Contact</span>
+            <h2>Let’s build business value together.</h2>
+            <p>Open to opportunities in sales, business development, operations, customer relations, administration, and entry-level business roles.</p>
+            <div class="hero-actions">
+              <a class="btn primary" href="mailto:m.amranibrhm@gmail.com">Send Email</a>
+              <a class="btn" href="assets/CV_ATS_Amran.pdf" download>Download CV</a>
+            </div>
+          </div>
+          <div class="contact-list">
+            <a class="contact-link" href="mailto:m.amranibrhm@gmail.com"><strong>Email</strong><span>m.amranibrhm@gmail.com</span></a>
+            <a class="contact-link" href="tel:+6281232952233"><strong>Phone</strong><span>+62 812-3295-2233</span></a>
+            <a class="contact-link" href="https://bit.ly/portoamranibrahim" target="_blank" rel="noreferrer"><strong>Portfolio</strong><span>bit.ly/portoamranibrahim</span></a>
+            <div class="contact-link"><strong>Location</strong><span>Sidoarjo, East Java, Indonesia</span></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <span>© 2026 Mohammad Amran Ibrahim. All rights reserved.</span>
+        <span>Business Portfolio • Sales • Operations • Customer Relations</span>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    const root = document.documentElement;
+    const nav = document.querySelector('.nav');
+    const mobileToggle = document.getElementById('mobileToggle');
+    const themeToggle = document.getElementById('themeToggle');
+    const navLinks = [...document.querySelectorAll('.nav-menu a')];
+    const sections = navLinks.map(link => document.querySelector(link.getAttribute('href'))).filter(Boolean);
+
+    const storedTheme = localStorage.getItem('amran-theme');
+    if (storedTheme) document.body.dataset.theme = storedTheme;
+
+    themeToggle.addEventListener('click', () => {
+      const next = document.body.dataset.theme === 'light' ? '' : 'light';
+      if (next) document.body.dataset.theme = next;
+      else delete document.body.dataset.theme;
+      localStorage.setItem('amran-theme', next);
+    });
+
+    mobileToggle.addEventListener('click', () => {
+      const isOpen = nav.classList.toggle('open');
+      mobileToggle.setAttribute('aria-expanded', String(isOpen));
+    });
+
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        nav.classList.remove('open');
+        mobileToggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    const revealObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+    const activeObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        navLinks.forEach(link => link.classList.toggle('active', link.getAttribute('href') === '#' + entry.target.id));
+      });
+    }, { rootMargin: '-45% 0px -50% 0px', threshold: 0 });
+    sections.forEach(section => activeObserver.observe(section));
+  </script>
 </body>
 </html>
